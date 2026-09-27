@@ -524,5 +524,20 @@ public class TypeConversions {
         //
         // 10. char can participate in arithmetic because it has
         //     a numeric Unicode value.
+
+        // Implicit Conversions:
+        // byte to int
+//        byte b_ = 24;
+//        int i;
+//        i = b_;
+//        System.out.println(i); //24
+
+        // chat to int
+//        char c = 'a';
+//        int i;
+//
+//        i = c;
+//
+//        System.out.println(i); // 97
     }
 }
